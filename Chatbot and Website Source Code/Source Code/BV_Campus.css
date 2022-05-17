@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+}
+
+.top-header {
+    box-shadow: 0 0 10px rgb(0 0 0 / 15%), 0 3px 3px rgb(0 0 0 / 15%);
+    transition: box-shadow 0.5s ease 0.25s;
+    z-index: 100;
+    position: sticky;
+    top: 0;
+}
+
+.top-bar {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: "Josefin Sans", "sans-serif";
+}
+
+.top-right {
+    flex: 7;
+}
+
+.top-left {
+    margin-left: 2%;
+    color: white;
+    font-size: 30px;
+}
+
+.top-left {
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar-item {
+    margin-right: 20px;
+    font-size: 22px;
+    font-weight: 300;
+    cursor: pointer;
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: white;
+
+}
+
+.menu {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    transition: box-shadow 0.3s ease;
+    font-family: "Josefin Sans", "sans-serif";
+}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+    color: black;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-item {
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-right: 20px;
+    font-size: 22px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.heading header h2 {
+    padding-left: calc(60% - 436.666666667px);
+    padding-right: calc(60% - 436.666666667px);
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    line-height: 1.25em;
+    text-align: center;
+    letter-spacing: -0.85px;
+    font-size: 3.0517578125em;
+    margin-top: 0.8em;
+    margin-bottom: 0.125em;
+}
+
+.heading header p {
+    padding-left: calc(51% - 436.666666667px);
+    padding-right: calc(51% - 436.666666667px);
+    font-size: 1.5625em;
+    text-align: center;
+    line-height: 1.5;
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-top: 1em;
+    margin-bottom: 0.512em;
+}
+
+.grid-container {
+    display: label;
+    grid-template-areas:
+        "label0";
+    gap: 0px;
+    height: 850px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.item {
+    box-shadow: 0 0 10px rgb(0 0 0 / 45%), 0 3px 3px rgb(0 0 0 / 45%);
+    color: #2e2d29;
+    max-width: 1500px;
+    text-align: justify;
+}
+
+#item-0 {
+    grid-area: label0;
+}
+
+.desc {
+    height: 900px;
+    background-color: #ffffff;
+    padding: 54px;
+}
+
+.desc h4 {
+    color: #820000;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0.32768em;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    line-height: 1;
+    font-size: 1.5em;
+    max-width: 2000px;
+}
+
+.desc p {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease-out;
+    cursor: pointer;
+    font-family: "Calibri";
+    font-weight: 1000;
+    letter-spacing: -0.75px;
+    font-size: 1.2em;
+    text-align: justify;
+    padding-left: 26px;
+    color: #072252;
+}
+
+.events .button {
+    margin-top: 50px;
+    padding-bottom: 37.5px;
+    text-align: center;
+}
+
+.events .button a {
+    cursor: pointer;
+    display: inline-block;
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: 0.4444444444em 1em 0.5555555556em;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    vertical-align: middle;
+    font-size: 1.25em;
+    min-width: 20.5rem;
+    color: #fff;
+    background-color: #00002e;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%), 0 0 5px rgb(0 0 0 / 10%);
+}
+
+.footer1 {
+    background-color: #f4f4f4;
+    height: 70px;
+}
+
+.icons {
+    padding: 5px;
+}
+
+.footer2 {
+    background-color: #00002e;
+    height: 100px;
+    text-align: center;
+    color: white;
+    font-family: "Josefin Sans", "sans-serif";
+    font-size: 40px;
+    padding-top: 10px;
+}

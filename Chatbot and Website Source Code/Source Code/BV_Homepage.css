@@ -1,0 +1,512 @@
+* {
+    margin: 0;
+}
+
+.top-bar {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: "Josefin Sans", "sans-serif";
+    z-index: 100;
+    position: sticky;
+    top: 0;
+}
+
+.top-right {
+    flex: 7;
+}
+
+.top-left {
+    margin-left: 2%;
+    color: white;
+    font-size: 30px;
+}
+
+.top-left {
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar-item {
+    margin-right: 20px;
+    font-size: 22px;
+    font-weight: 300;
+    cursor: pointer;
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+.menu {
+    width: 100%;
+    height: 60px;
+    background-color: lightgrey;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    font-family: "Josefin Sans", "sans-serif";
+}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-item {
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-right: 20px;
+    font-size: 22px;
+    font-weight: 300;
+    cursor: pointer;
+    color: white;
+}
+
+.banner {
+    height: 750px;
+    background-image: url("https://i.postimg.cc/TYsmzkx0/imagebg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: antiqueblack;
+}
+
+.banner p {
+    padding-left: 70px;
+    padding-top: 0px;
+    font-size: 5.4505805969em;
+    text-align: left;
+    text-shadow: 0 0 30px rgb(0 0 0 / 70%);
+    font-family: Stanford, Source Serif Pro, Georgia, Times, Times New Roman, serif !important;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.covid_response {
+    padding-top: 37.5px;
+    padding-bottom: 37.5px;
+    background-color: #544948;
+}
+
+.response {
+    color: #fff;
+}
+
+.response header {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.response header h2 {
+    padding-left: calc(60% - 436.666666667px);
+    padding-right: calc(60% - 436.666666667px);
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    line-height: 1.25em;
+    text-align: center;
+    letter-spacing: -0.85px;
+    font-size: 3.0517578125em;
+}
+
+.response header p {
+    padding-left: calc(51% - 436.666666667px);
+    padding-right: calc(51% - 436.666666667px);
+    font-size: 1.5625em;
+    text-align: center;
+    line-height: 1.5;
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-top: 0.333333em;
+    margin-bottom: 30px;
+}
+
+.par {
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.form {
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+    transform: translate(0%, -5%);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #003366;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #003366;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn {
+    width: 240px;
+    height: 40px;
+    background: #87ceeb;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.btnn:hover {
+    background: #fff;
+    color: #87ceeb;
+}
+
+.btnn b {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.form .link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a {
+    text-decoration: none;
+    color: #ff7200;
+}
+
+.liw {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.icons a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons ion-icon {
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.icons ion-icon:hover {
+    color: #ff7200;
+}
+
+.response header a {
+    color: #fff;
+}
+
+.response .button {
+    padding-bottom: 37.5px;
+    text-align: center;
+}
+
+.response .button a {
+    cursor: pointer;
+    display: inline-block;
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: 0.4444444444em 1em 0.5555555556em;
+    text-align: left;
+    text-decoration: none;
+    border: none;
+    vertical-align: middle;
+    font-size: 1.25em;
+    min-width: 20.5rem;
+    color: #fff;
+    background-color: #00002e;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%), 0 0 5px rgb(0 0 0 / 10%);
+}
+
+.banasthali_news {
+    padding-top: 37.5px;
+    padding-bottom: 37.5px;
+}
+
+.banasthali_news header {
+    padding-top: 30px;
+    padding-bottom: 22.5px;
+}
+
+.banasthali_news header h2 {
+    font-size: 3.0517578125em;
+    font-weight: 900;
+    line-height: 1.25em;
+    text-align: center;
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.banasthali_news header p {
+    line-height: 1.5;
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1.5625em;
+    text-align: center;
+}
+
+.news .grid-container {
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 20px;
+    height: 800px;
+}
+
+#item-0 {
+    background-image: url("https://spiderimg.amarujala.com/assets/images/2018/01/07/750x506/m-venkaiah-naidu_1515332585.jpeg");
+    background-size: cover;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-column-end: 3;
+}
+
+#item-1 {
+    background-color: #6a994e;
+    grid-row-start: 1;
+    grid-column-start: 3;
+    background-image: url("http://www.letsintern.com/blog/wp-content/uploads/2017/09/banasthali-university.jpg");
+    grid-row-end: 2;
+    grid-column-end: 4;
+}
+
+#item-2 {
+    background-color: #6a994e;
+    grid-row-start: 1;
+    grid-column-start: 4;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAr5xxRJjBzpnUEQ2pRUOP8qF1bxV9pCrhpw&usqp=CAU");
+    grid-row-end: 2;
+    grid-column-end: 5;
+}
+
+#item-3 {
+    background-color: #386641;
+    grid-row-start: 2;
+    grid-column-start: 3;
+    background-image: url("https://cdn.dnaindia.com/sites/default/files/styles/full/public/2018/03/27/665302-banasthalividyapith.jpg");
+    background-size: cover;
+    grid-row-end: 3;
+    grid-column-end: 5;
+}
+
+#item-4 {
+    background-color: #6a994e;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQONO7XQ-waaMjDF961cWNJNZlx-rydhGReJA&usqp=CAU");
+    background-size: cover;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row-end: 3;
+    grid-column-end: 3;
+}
+
+#item-5 {
+    background-color: #6a994e;
+    background-image: url("https://cdn.openpr.com/Q/b/Qb2325546_g.jpg");
+    background-size: cover;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-column-end: 2;
+}
+
+.news .button {
+    margin-top: 30px;
+    padding-bottom: 37.5px;
+    text-align: center;
+}
+
+.news .button a {
+    cursor: pointer;
+    display: inline-block;
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: 0.4444444444em 1em 0.5555555556em;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    vertical-align: middle;
+    font-size: 1.25em;
+    min-width: 20.5rem;
+    color: #fff;
+    background-color: #00002e;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%), 0 0 5px rgb(0 0 0 / 10%);
+}
+
+.banasthali_events {
+    padding-top: 37.5px;
+    padding-bottom: 37.5px;
+}
+
+.banasthali_events header {
+    padding-top: 30px;
+    padding-bottom: 22.5px;
+}
+
+.banasthali_events header h2 {
+    font-size: 3.0517578125em;
+    font-weight: 900;
+    line-height: 1.25em;
+    text-align: center;
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.banasthali_events header p {
+    line-height: 1.5;
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1.5625em;
+    text-align: center;
+}
+
+.events .button {
+    margin-top: 30px;
+    padding-bottom: 37.5px;
+    text-align: center;
+}
+
+.events .button a {
+    cursor: pointer;
+    display: inline-block;
+    font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: 0.4444444444em 1em 0.5555555556em;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    vertical-align: middle;
+    font-size: 1.25em;
+    min-width: 20.5rem;
+    color: #fff;
+    background-color: #00002e;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%), 0 0 5px rgb(0 0 0 / 10%);
+}
+
+.events .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 30px;
+    padding-right: 30px;
+    grid-template-areas: "label3 label0 label1 label2";
+    gap: 20px;
+    height: 400px;
+}
+
+#Item-0 {
+    background-color: #76c798;
+    grid-area: label0;
+    background-image: url("https://images.shiksha.com/mediadata/images/1531983029phpMxPiZm.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Item-1 {
+    background-color: #59cf5d;
+    grid-area: label1;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSapEcs7_djO2sK-xbQkTcyyVNS-6U0DP9tK-lbsmypqgFdf3HxJn4QYC4FkzQgEBpb8BY&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Item-2 {
+    background-color: #8f798d;
+    grid-area: label2;
+    background-image: url("https://new-img.patrika.com/upload/2018/10/06/tk0610c14.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Item-3 {
+    background-color: #db7875;
+    grid-area: label3;
+    background-image: url("https://cdn.openpr.com/R/b/Rb29621451_g.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.event {
+    background-color: #2f2424;
+    color: #fff;
+}
+
+.footer1 {
+    background-color: #f4f4f4;
+    height: 70px;
+}
+
+.icons {
+    padding: 5px;
+}
+
+.footer2 {
+    background-color: #00002e;
+    height: 100px;
+    text-align: center;
+    color: white;
+    font-family: "Josefin Sans", "sans-serif";
+    font-size: 40px;
+    padding-top: 10px;
+}
