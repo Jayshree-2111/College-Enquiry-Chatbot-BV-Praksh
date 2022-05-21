@@ -8,7 +8,7 @@ In this project, Banasthali Vidyapith's website is created and three buttons are
 
 You can access the demo of the project from here: **https://bit.ly/3KLr6Ft**
 
-You can use our guest chatbot by clicking on this link: **praksh-chatbot.42web.io**
+You can use our guest chatbot by clicking on this link: **http://praksh-chatbot.42web.io/?i=1**
 (Student and Faculty chatbots are not available due to security purposes!)
 
 **Project Contributors: Jayshree Gupta & Khushi Agarwal**
